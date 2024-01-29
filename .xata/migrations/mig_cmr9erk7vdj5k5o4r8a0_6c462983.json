@@ -1,0 +1,16 @@
+{
+  "id": "mig_cmr9erk7vdj5k5o4r8a0",
+  "parentID": "mig_cmr9eic7vdj5k5o4r890",
+  "checksum": "1:6c462983a8f31a8e28de754f96de29ecce002822e9a22ffc1bf39a234eef5603",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "companyName",
+          "type": "string"
+        },
+        "table": "jobs"
+      }
+    }
+  ]
+}

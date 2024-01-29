@@ -1,0 +1,11 @@
+{
+  "id": "mig_cmr9e0e4j9mkeigp8asg",
+  "checksum": "1:e295d5ce077714e12862be2478da0a32c4ab12bc760d02cc977abacd3ed8b5db",
+  "operations": [
+    {
+      "addTable": {
+        "table": "jobs"
+      }
+    }
+  ]
+}

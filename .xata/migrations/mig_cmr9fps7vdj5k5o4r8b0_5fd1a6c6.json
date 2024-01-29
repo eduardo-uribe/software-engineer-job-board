@@ -1,0 +1,17 @@
+{
+  "id": "mig_cmr9fps7vdj5k5o4r8b0",
+  "parentID": "mig_cmr9erk7vdj5k5o4r8a0",
+  "checksum": "1:5fd1a6c693919e38794e308a25e086195b2c7df07774b55b51baea01c0d94322",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "applied",
+          "type": "bool",
+          "defaultValue": "false"
+        },
+        "table": "jobs"
+      }
+    }
+  ]
+}

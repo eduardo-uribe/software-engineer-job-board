@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://eduardo-s-workspace-opp8g5.us-east-1.xata.sh/db/software-engineer-job-board",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}

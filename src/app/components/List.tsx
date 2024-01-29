@@ -56,16 +56,16 @@ const projects = [
   },
 ];
 
-function classNames(...classes) {
+function classNames(...classes: any) {
   return classes.filter(Boolean).join(' ');
 }
 
-export default function Example({ jobs }) {
+export default function Example({ jobs }: any) {
   jobs = JSON.parse(jobs);
 
   return (
     <ul role='list' className='divide-y divide-gray-100'>
-      {jobs.map((job) => (
+      {jobs.map((job: any) => (
         <li
           key={job.id}
           className='flex items-center justify-between gap-x-6 py-5'

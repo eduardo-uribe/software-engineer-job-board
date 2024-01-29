@@ -44,7 +44,7 @@ function classNames(...classes: any) {
   return classes.filter(Boolean).join(' ');
 }
 
-export default function Example({ jobs, username, imageUrl }) {
+export default function Example({ jobs, username, imageUrl }: any) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const router = useRouter();
 
